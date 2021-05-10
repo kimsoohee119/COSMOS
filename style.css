@@ -1,0 +1,360 @@
+* {
+	margin:0;
+	padding:0;
+	font-family: Roboto;
+	box-sizing: border-box;
+}
+
+.fn-font {
+	font-family: 'Roboto';
+}
+
+.container ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+.container {
+	width:1920px;
+    margin-left: 0;
+}
+
+header {
+	width:100%;
+	height:72px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header > h1 {
+	margin-left:32px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #433B70;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+header > nav {
+	height:100%;
+}
+
+header ul {
+	width:100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+header ul > li {
+	font-size:24px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.container a{
+    margin-top: 22px;
+    margin-bottom: 22px;
+    padding:0 32px;
+    color: #808080;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.Logo{ 
+    width: 1920px;
+    height: 420px;
+    left: 0px;
+    top: 72px;
+    background: #D1CDF4;
+}
+
+.Logo h2{
+    height: 36px;
+    text-align: center;
+    padding-top: 188px;
+    padding-bottom: 32px;
+    top: 188px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #3D3B6B;
+}
+
+.Logo p{
+    position: absolute;
+    height: 24px;
+    left: 810px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    padding-top:32px;
+    color: #3D3B6B;
+}
+#value {
+    height: 412px;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 96px;
+}
+.img {
+	width: 200px;
+	height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info > h4 {
+    height: 42px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.info > p {
+    height: 28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+.Sidebar{
+    width: 360px;
+    height: 928px;
+    left: 0px;
+    top: 72px;
+    background: #D1CDF4;
+}
+.Sidebar h2{
+    height: 36px;
+    padding-top: 32px;
+    padding-right: 32px;
+    text-align: right;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color : #3D3B6B;
+
+}
+.Contents{
+    border-top: 8px solid #D7D9F2;
+    width: 1560px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 360px 1fr;
+}
+#grid .Contents{
+    padding-left:40px;
+    padding-top:48px;
+}
+.Contents h2{
+    height: 36px;
+    left: 8px;
+    top: 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #808080;
+    margin-bottom: 8px;
+}
+.Contents p{
+    height: 24px;
+    left: 8px;
+    top: 52px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #808080;
+    margin-bottom: 48px;
+}
+.bigbox{
+    width: 1920px;
+    height: 928px;
+    left: 0px;
+    top: 72px;
+    padding-top: 64px;
+    background-color: #F8F8F8;
+}
+.bigbox .box1{
+    width: 491px;
+    height: 800px;
+    margin-left: 160px;
+    padding-top: 64px;
+    background: #FFFFFF;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+    float : left;
+
+} 
+.circle{
+    width: 240px;
+    height: 240px;
+    border-radius: 120px;
+    left: 126px;
+    margin-left:126px;
+    margin-bottom:64px;
+
+    background: #D1CDF4;
+}
+.box1 h2{
+    width: 491px;
+    height: 36px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #808080;
+    margin-bottom:16px;
+}
+.box1 h4{
+    width: 491px;
+    height: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #808080;
+    margin-bottom:16px;
+}
+
+.box1 ul{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    /* or 34px */
+    color: #808080;    
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bigbox .box2{
+    width: 491px;
+    height: 800px;
+    margin-left: 64px;
+    padding-top: 64px;
+    background: #FFFFFF;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+    float : left;
+} 
+.box2 h2{
+    width: 491px;
+    height: 36px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #808080;
+    margin-bottom:16px;
+}
+.box2 h4{
+    width: 491px;
+    height: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #808080;
+    margin-bottom:16px;
+}
+
+.box2 ul{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    /* or 34px */
+    color: #808080;    
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bigbox .box3{
+    width: 491px;
+    height: 800px;
+    margin-right: 160px;
+    padding-top: 64px;
+    background: #FFFFFF;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+    float : right;
+} 
+.box3 h2{
+    width: 491px;
+    height: 36px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #808080;
+    margin-bottom:16px;
+}
+.box3 h4{
+    width: 491px;
+    height: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #808080;
+    margin-bottom:16px;
+}
+
+.box3 ul{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    /* or 34px */
+    color: #808080;    
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
